@@ -1,0 +1,19 @@
+
+#homephoto {
+    width:8%;
+    height: auto;
+}
+
+footer,header{
+    border-style: round;
+    background-color: aquamarine;
+    border-radius: 25px;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". header ." "";
+}
