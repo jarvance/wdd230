@@ -1,8 +1,8 @@
 
 function getLastModified(){
-    document.getElementByid("lastupdated").innerHTML = document.lastModified;
+    document.getElementById("lastupdated").innerHTML = "Last updated: " + document.lastModified;
 }
 
-window.onload=function(){
-    getLastModified;
+window.onload = function(){
+    getLastModified();
 }
