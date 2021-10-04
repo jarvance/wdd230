@@ -5,15 +5,15 @@
     float: right;
     margin-top: -100px;
     margin-right: 30px;
-    box-shadow: 0px 0px 35px black;
 }
 
 footer,header{
     border-style: round;
-    background-color: #BAF2E9;
+    background-color: #5CC8FF;
     text-align: center;
     color: black;
-    
+    border-radius: 15px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 h1{
@@ -28,10 +28,6 @@ h2{
     margin-right: 150px;
 }
 
-#lastupdated {
-    color: burlywood;
-}
-
 footer{
     padding-top: 8px;
     padding-bottom: 8px;
@@ -40,4 +36,9 @@ footer{
 body{
     max-width: 1200px;
     margin: auto;
+    background-color: #E8DAB2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.smallh1 {
+    font-size: 45px;
 }
