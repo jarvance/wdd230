@@ -9,7 +9,6 @@
 }
 
 footer,header{
-    border-style: round;
     background-color: rgba(133, 52, 5, 0.836);
     border-radius: 25px;
     text-align: center;
