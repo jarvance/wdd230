@@ -9,8 +9,11 @@ closeMenu.addEventListener('click',close);
 function show(){
     mainMenu.style.display = 'flex';
     mainMenu.style.top = '0';
+    closeMenu.style.display = 'block';
+    openMenu.style.display = 'none';
 }
 
 function close(){
-    mainMenu.style.top = '-100%';
+    mainMenu.style.display = 'none';
+    openMenu.style.display = 'block';
 }
