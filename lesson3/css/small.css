@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+#applogo {
+  width: 170px;
+  height: auto;
+  float: right;
+  margin-top: -100px;
+  margin-right: 30px;
+}
+
+footer,
+header {
+  background-color: #5cc8ff;
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, sans-serif;
+}
+nav {
+    background: #3ea9df;
+    color: #000;
+    display: flex; 
+    position: relative;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: auto;
+    
+  }
+  body {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #e8dab2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  }
+
+  footer {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  
+h1 {
+  font-size: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+h2 {
+  border-bottom: solid;
+  border-color: gray;
+}
+
+
+.smallh1 {
+  font-size: 45px;
+}
+
+.searchopt {
+  font-size: 25px;
+  margin: 10px;
+  display: block;
+  cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+}
+
+a:hover:not(.active) {
+    color: white;
+  }
+
+  p{
+      padding-top: 15px;
+      padding-bottom: 25px;
+  }

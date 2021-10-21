@@ -1,0 +1,15 @@
+@media (max-width:850px) {
+
+    h1 {
+        font-size: 45px;
+    }
+
+    nav a{
+       content: "";
+       display: table;
+       clear: both;
+       margin-left: auto;
+       margin-right: auto;
+   }
+
+}

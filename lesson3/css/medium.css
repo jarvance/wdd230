@@ -1,0 +1,14 @@
+
+@media (max-width:1123px) {
+    #applogo {
+        display: none;
+    }
+
+    nav {
+        margin-left: auto;
+        margin-right: auto;
+    }
+   section{
+       padding: 15px;
+   }
+}
