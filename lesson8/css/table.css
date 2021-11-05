@@ -1,0 +1,32 @@
+table, caption, td, th {
+    border: 1px solid rgb(189, 188, 188);
+    text-align: center;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  
+  table {
+    width: 15%;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 15px #628ca6;
+  }
+  caption {
+      background-color: #7fb9c2;
+      box-shadow: 10px 10px 15px #628ca6;
+      font-size: 28px;
+  }
+  th {
+      background-color: #628ca6;
+      color: white;
+      font-size: 21px;
+      padding: 5px;
+  }
+  #metSales {
+      background-color: #628ca6;
+      color: white;
+  }
+
+  tr:nth-child(even) {background-color: #e7f0ed;}
+  tr:nth-child(odd) {background-color: #e7ffed;}
+  tr:nth-child(7) {background-color: #7fb9c2;}
+ 

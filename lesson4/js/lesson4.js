@@ -2,6 +2,14 @@ const mainMenu = document.querySelector('.mainMenu')
 const closeMenu = document.querySelector('.closeMenu')
 const openMenu = document.querySelector('.openMenu')
 
+function getLastModified(){
+    document.getElementById("lastupdated").innerHTML = "Last updated: " + document.lastModified;
+}
+
+window.onload = function(){
+    getLastModified();
+}
+
 
 openMenu.addEventListener('click',show);
 closeMenu.addEventListener('click',close);

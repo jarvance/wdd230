@@ -1,0 +1,38 @@
+@media (min-width: 752px) {
+  .mainMenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .mainMenu a {
+    flex: 1 1 auto;
+  }
+
+  .openMenu {
+    display: none;
+  }
+
+  .forecastTable {
+    display: initial;
+  }
+
+  #prestonIdaho {
+    width: 87%;
+  }
+
+  .contentBox {
+    flex-direction: row;
+  }
+  .contentBox p {
+    order: 1;
+  }
+
+  .contentTest {
+    order: 2;
+  }
+}

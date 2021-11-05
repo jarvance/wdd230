@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <title>Form Example</title>
+</head>
+<body>
+    
+    <form id="htmlValidate">
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" name="name" type="text" required >
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input id="age" name="age" type="number" min="0" max="130">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+<br>
+<br>
+<div id="error"></div>
+    <form id="javaValidate">
+        <div>
+            <label for="name2">Name:</label>
+            <input id="name2" name="name2" type="text">
+        </div>
+        <div>
+            <label for="phone">Phone number:</label>
+            <input id="phone" name="phone" type="text">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+
+    </form>
+
+</body>
+</html>
