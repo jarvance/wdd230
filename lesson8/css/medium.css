@@ -1,0 +1,43 @@
+@media (min-width:665px) {
+    .mainMenu {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .mainMenu a {
+        flex: 1 1 auto;
+    }
+
+    .openMenu {
+        display: none;
+    }
+
+    form {
+        width: 600px;
+
+      }
+      
+      select, input {
+        padding:10px;
+        margin-bottom: 15px;
+        width: 55%;
+      }
+
+    
+      
+      textarea {
+        height: 7em;
+        width: 40em;
+    }
+
+    .radioAllign {
+        text-align: left !important;
+        padding-left: 150px;
+      }
+
+}
