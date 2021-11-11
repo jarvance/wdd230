@@ -42,6 +42,7 @@
             <label for="fulName">Full Name:</label> <br />
             <input
               name="fulName"
+              id="fulName"
               type="text"
               pattern="[A-Za-z].{5,}"
               required
@@ -49,7 +50,7 @@
           </div>
           <div>
             <label for="email">Email:</label> <br />
-            <input type="email" placeholder="John.Doe@gmail.com" />
+            <input type="email" id="email" placeholder="John.Doe@gmail.com" />
           </div>
           <div>
             <label for="phone">Phone Number:</label><br />
@@ -120,11 +121,11 @@
           </div>
 
           <div>
-            <label for="inDanger">Are you in danger?</label>
+            <label>Are you in danger?</label>
           </div>
 
           <div class="radioAllign">
-            <label for="inDanger"
+            <label for="inDangerYes"
               ><input
                 class="radSpace"
                 type="radio"
@@ -135,7 +136,7 @@
               /> Yes
             </label> <br>   
             
-            <label for="inDanger"> <input
+            <label for="inDangerMaybe"> <input
               class="radSpace"
                 type="radio"
                 name="inDanger"
@@ -144,7 +145,7 @@
                 required
               /> Maybe</label> <br>
            
-            <label for="inDanger"> <input
+            <label for="inDangerNo"> <input
               class="radSpace"
                 type="radio"
                 name="inDanger"

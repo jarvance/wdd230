@@ -4,19 +4,18 @@
   padding: 0;
 }
 
-
-select, input {
-  padding:10px;
+select,
+input {
+  padding: 10px;
   margin-bottom: 15px;
 }
- 
+
 input:focus {
-	box-shadow: 0 0 10px #bbb;
+  box-shadow: 0 0 10px #bbb;
 }
 
 .radSpace {
   width: auto;
-  
 }
 
 form {
@@ -26,7 +25,6 @@ form {
   margin-right: auto;
   padding-top: 15px;
   padding-bottom: 15px;
- 
 }
 
 .radioAllign label {
@@ -35,6 +33,12 @@ form {
 .radioAllign {
   text-align: left !important;
   padding-left: 35%;
+}
+
+input[type="radio"] {
+  border: 0px;
+  width: 18px;
+  height: 18px;
 }
 
 body {
