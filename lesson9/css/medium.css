@@ -1,0 +1,76 @@
+@media (min-width:900px) {
+    .mainMenu {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .mainMenu a {
+        flex: 1 1 auto;
+    }
+
+    .openMenu {
+        display: none;
+    }
+
+    #fetchData{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+    .container {
+      margin: 20px;
+      background-color: turquoise;
+      max-width: 31%;
+      padding: 0px; 
+    }
+    
+    .placeName {
+      padding-top: 10px;
+      font-size: 37px;
+      color: navy;
+    }
+    
+    .yearFound {
+      color: navy;
+      font-size: 15px;
+    }
+
+    .thePop {
+      color: navy;
+      font-size: 15px;
+    }
+    
+    .rainfall {
+      color: navy;
+      font-size: 15px;
+    }
+    
+    .textContent {
+      width: 50%;
+      padding-bottom: 15px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .textContent._0 {
+      float: none;
+    }
+    .textContent._1 {
+      float: none;
+    }
+    
+    #images {
+      transform: translateY(15px);
+      width: 100%;
+      min-width: 190px;
+    }
+    
+
+  
+}
