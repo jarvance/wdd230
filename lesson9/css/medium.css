@@ -17,16 +17,20 @@
         display: none;
     }
 
+    #hometownPhoto {
+      height: 350px;
+    }
+}
     #fetchData{
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      justify-content: center;
       align-items: baseline;
     }
     .container {
       margin: 20px;
       background-color: turquoise;
-      max-width: 31%;
+      max-width: 25%;
       padding: 0px; 
     }
     
@@ -70,7 +74,13 @@
       width: 100%;
       min-width: 190px;
     }
+    .contactInfo {
+      padding-top: 55px;
+      padding-left: 5px;
+    }
     
-
+    #map {
+      width: 250px;
+    }
   
 }

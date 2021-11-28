@@ -52,6 +52,29 @@ header {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 15px;
+  
+}
+header img {
+  display: block;
+  width: 50px;
+  padding-right: 20px;
+  
+}
+header h1 {
+  font-size: 35px;
+}
+.headGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+#logo {
+  grid-column: 2;
+  font-size: 25px;
+}
+.contactInfo {
+  padding-top: 25px;
+  padding-left: 5px;
 }
 
 nav {
@@ -70,9 +93,29 @@ footer {
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  border: thin solid;
+  margin-top: 10px;
+  border: solid;
 }
+
+footer img {
+  width: 35px;
+}
+.footGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  justify-content: center;
+}
+#map {
+  width: 150px;
+  box-shadow: 0 0 2px black;
+}
+.contactInfo {
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
 
 .contentBox {
   max-width: 1200px;

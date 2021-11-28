@@ -11,6 +11,7 @@ fetch(requestURL)
 .then((res)=>{
     console.log(res);
     document.getElementById('fetchData').innerHTML = res.towns.map((a,index) =>{
+      if(a.name == 'Soda Springs' || a.name == "Preston" || a.name == "Fish Haven"){
         return `<div class="container">
         <div class="textContent _${index%2}">
           <h2 class="placeName">${a.name}</h2>
@@ -21,19 +22,12 @@ fetch(requestURL)
         </div>
         <img id="images" src="https://picsum.photos/1600/900?random=${index}" />
       </div>`
-    
+    }
     })
     .join("");
 
 
 })
-
-
-
-
-
-
-
 
 
 function getLastModified(){

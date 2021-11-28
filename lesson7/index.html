@@ -1,23 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Display images with progressive loading">
-    <script src="js/javascript.js"></script>
-    <title>Progressive loading</title>
-    
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gallery Collection of photos" />
+  <link rel="stylesheet" href="css/small.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="icon" href="../images/raindrop.jpeg">
+  <script defer src="js/javascript.js"></script>
+  <title>Gallery Collections</title>
 </head>
 
 <body>
-    <main>
-        <h1>Progressive Loading</h1>
-        <picture></picture>
-        <picture></picture>
-        <picture></picture>
-        <picture></picture>
-        <picture></picture>
-        <picture></picture>
-    </main>
+  <div id="events">
+    Saturday = Preston Pancakes in the park! 9:00AM Saturday at the city park.
+  </div>
+
+  <header>
+    <div class="headGrid">
+    <img id="rainDrop" src="../images/raindrop.png" alt="Rain Drop">
+    <h1>OversizedRaindrop</h1>
+    <div id="logo">"Get your info here!"</div>
+  </div>
+  </header>
+  <nav>
+    <div class="openMenu"><i class="fa fa-bars"></i></div>
+    <div class="mainMenu">
+      <a href="../lesson9/index.html">Home</a>
+      <a href="../lesson10/index.html">Preston</a>
+      <a href="../lesson10/sodaSprings.html">Soda Springs</a>
+      <a href="../lesson10/fishHaven.html">Fish Haven </a>
+      <a href="../lesson8/index.html">Storm Center</a>
+      <a href="#">Gallery</a>
+      <div class="closeMenu"><i class="fa fa-times"></i></div>
+    </div>
+  </nav>
+  <main>
+    <h2>Welcome to our weather Gallery!</h2>
+    <div class="gallery">
+      <figure><img id="rain1" src="images/images (1).jpg" alt="Rain over Valley">
+        <figcaption>Rainy Day</figcaption>
+      </figure>
+      <figure><img loading="eager" id="cloudySky" src="images/images (2).jpg" alt="Gray cloudy sky"><figcaption>Cloudy afternoon.</figcaption></figure>
+      <figure><img loading="eager" id="tornado" src="images/images (3).jpg" alt="Tornado"><figcaption>Tornado, thankfully not over Preston.</figcaption></figure>
+      <figure><img loading="lazy" id="lightning" src="images/images (4).jpg" alt="Lightning over city"><figcaption>Lightning captured over city.</figcaption></figure>
+      <figure><img loading="lazy" id="fire" src="images/images (5).jpg" alt="Forest fire behind a cabin"><figcaption>Forest fire behind local cabin.</figcaption></figure>
+      <figure><img loading="lazy" id="snow" src="images/images (6).jpg" alt="Snow"><figcaption>Mountain Snow.</figcaption></figure>
+      <figure><img loading="lazy" id="farmView" src="images/images (7).jpg" alt="Coulds over a field"><figcaption>Clouds over a farmer's field.</figcaption></figure>
+      <figure><img loading="lazy" id="mist" src="images/images (8).jpg" alt="Mist"><figcaption>Misty morning.</figcaption></figure>
+      <figure><img loading="lazy" id="lightning2" src="images/images.jpg" alt="Lightning over valley"><figcaption>Lightning seen over the valley.</figcaption></figure>
+    </div>
+    <div class="pageVisit"><p>Page last visited: <span id="lastVisit"></span></p></div>
+  </main>
+
+  <footer>
+    <div>
+      <h3>Contact Us</h3>
+      <div class="footGrid">
+      <div class="map">
+        <img id="map" src="../images/preston map.png" alt="map of Preston Idaho" />
+      </div>
+      <div class="contactInfo">
+        <a href="https://www.google.com/maps/@42.0914947,-111.8713697,14.25z">123 North South, Preston, ID 83263</a>
+        <div>(123)456-9999</div>
+        <div>oversizedRain@drops.com</div>
+        <div>
+          <a href="#"><img src="../images/facebook.png" alt="facebook icon" /></a>
+          <a href="#"><img src="../images/instagram.png" alt="instagram icon" /></a>
+          <a href="#"><img src="../images/twitter.png" alt="twitter icon" /></a>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div>
+      <p>
+      <div>@OversizedRaindrop | BYUI WDD230| Jared Vance</div>
+      <span id="lastupdated"></span>
+      </p>
+    </div>
+
+  </footer>
 </body>
+
+</html>

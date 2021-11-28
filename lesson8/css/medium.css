@@ -39,5 +39,14 @@
         text-align: left !important;
         padding-left: 150px;
       }
+      .contactInfo {
+        padding-top: 55px;
+        padding-left: 5px;
+      }
+      
+      #map {
+        width: 250px;
+      }
+    
 
 }

@@ -1,0 +1,21 @@
+@media (min-width: 1200px) {
+  #prestonIdaho {
+    width: 75%;
+  }
+
+  .contactInfo {
+    padding-top: 75px;
+    padding-left: 5px;
+  }
+  
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #map {
+    width: 300px;
+  }
+  .gallery figure:hover {
+    box-shadow:  0 0 20px black;
+  }
+}

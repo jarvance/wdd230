@@ -4,10 +4,17 @@
   padding: 0;
 }
 
+#events{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: yellow;
+  font-size: 25px;
+  display: none;
+}
+
 body {
   margin: auto;
   text-align: center;
-  background-color: rgb(200, 238, 200);
 }
 
 header {
@@ -36,63 +43,12 @@ header h1 {
   font-size: 25px;
 }
 
-#hometownPhoto {
-  height: 200px;
-}
 nav {
   background: #5cc8ff;
   color: #000;
   display: flex;
   position: relative;
   justify-content: center;
-}
-
-.container {
-  margin: 20px;
-  padding: 30px;
-  background-color: turquoise;
-  min-height: 200px;
-}
-
-.contactInfo {
-  padding-top: 25px;
-  padding-left: 5px;
-}
-
-.placeName {
-  font-size: 30px;
-  color: navy;
-}
-
-.yearFound {
-  color: navy;
-  font-size: 15px;
-}
-
-.thePop {
-  color: navy;
-  font-size: 15px;
-}
-
-.rainfall {
-  color: navy;
-  font-size: 15px;
-}
-
-.textContent {
-  width: 50%;
-}
-
-.textContent._0 {
-  float: left;
-}
-.textContent._1 {
-  float: right;
-}
-
-#images {
-  width: 50%;
-  min-width: 190px;
 }
 
 footer {
@@ -121,17 +77,82 @@ footer img {
   width: 150px;
   box-shadow: 0 0 2px black;
 }
+.contactInfo {
+  padding-top: 25px;
+  padding-left: 5px;
+}
 
+
+.forecastTable {
+  display: none;
+}
+
+.forecastTable h2 {
+  margin-top: 19px;
+  margin-bottom: 8px;
+}
+
+table,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+th {
+  background-color: lightgreen;
+  padding: 30px;
+}
+
+td {
+  
+  background-color: lightblue;
+  padding: 30px;
+}
+
+.weatherSymbol {
+  mix-blend-mode: multiply;
+ margin-left: auto;
+ margin-right: auto;
+  display: block;
+  width: 70px;
+}
+.weatherBox{
+  display: none;
+}
 .contentBox {
+  display: flex;
+  flex-direction: column;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   background-color: #e8dab2;
-  border-style: dotted;
+  border: 1px solid black;
   padding-top: 10px;
   padding-bottom: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.contentBox p {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  order: 2;
+}
+
+.contentTest {
+  order: 1;
+}
+
+.contentImage {
+  margin-right: 15px;
+  margin-left: 9px;
 }
 
 .mainMenu {
@@ -159,20 +180,6 @@ footer img {
   color: rgb(255, 123, 0);
 }
 
-.textContent {
-  width: 50%;
-  padding-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.textContent._0 {
-  float: none;
-}
-.textContent._1 {
-  float: none;
-}
-
 .closeMenu {
   display: none;
   position: absolute;
@@ -180,21 +187,12 @@ footer img {
   right: 20px;
 }
 
-.userInfo {
-  border-style: solid;
-  border-radius: 15px;
-  background-color: lightgreen;
-  margin-bottom: 15px;
-  padding-top: 15px;
+#prestonIdaho {
+  width: 100%;
+  box-shadow: 0px 0px 35px black;
 }
 
-.stormInfo {
-  border-style: solid;
-  border-radius: 15px;
-  background-color: lightgreen;
-  padding-top: 10px;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom: 10px;
-  margin-bottom: 15px;
+#sodaIdaho {
+  box-shadow: 0px 0px 35px black;
+  max-height: 3000px;
 }

@@ -1,0 +1,20 @@
+@media (min-width: 1200px) {
+  #prestonIdaho {
+    width: 75%;
+  }
+
+  .weatherBox {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10%;
+
+  }
+  #map {
+    width: 300px;
+  }
+  .contactInfo {
+    padding-top: 75px;
+    padding-left: 5px;
+  }
+
+}

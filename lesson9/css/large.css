@@ -1,3 +1,17 @@
-@media screen (min-width:800px) {
-    
+@media (min-width: 1200px) {
+    #map {
+        width: 300px;
+      }
+
+      .contactInfo {
+        padding-top: 75px;
+        padding-left: 5px;
+      }
+      
+      #hometownPhoto {
+        height: 550px;
+      }
+      #map {
+        width: 300px;
+      }
 }

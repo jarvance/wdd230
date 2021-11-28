@@ -6,32 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Oversized Raindrops - provides a clear weather schedule for preston, Idaho"
+      content="Form for reporting incoming storms"
     />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <link
-      rel="stylesheet"
+      rel="stylesheet" 
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="icon" href="../images/raindrop.jpeg">
+
     <script defer src="js/lesson8.js"></script>
-    <title>Oversized Raindrops</title>
+    <title>Storm Watch</title>
   </head>
   <body>
     <header>
+      <div class="headGrid">
+      <img id="rainDrop" src="../images/raindrop.png" alt="Rain Drop">
       <h1>OversizedRaindrop</h1>
-      <div>"Get your info here!"</div>
+      <div id="logo">"Get your info here!"</div>
+    </div>
     </header>
     <nav>
       <div class="openMenu"><i class="fa fa-bars"></i></div>
       <div class="mainMenu">
-        <a href="#">Home</a>
-        <a href="#">Preston</a>
-        <a href="#">Soda Springs</a>
-        <a href="#">Fish Haven </a>
-        <a href="stormcenter.html">Storm Center</a>
-        <a href="#">Gallery</a>
+        <a href="../lesson9/index.html">Home</a>
+        <a href="../lesson10/index.html">Preston</a>
+        <a href="../lesson10/sodaSprings.html">Soda Springs</a>
+        <a href="../lesson10/fishHaven.html">Fish Haven </a>
+        <a href="#">Storm Center</a>
+        <a href="../lesson7/index.html">Gallery</a>
         <div class="closeMenu"><i class="fa fa-times"></i></div>
       </div>
     </nav>
@@ -170,8 +175,31 @@
       </form>
     </main>
     <footer>
-      <div>@OversizedRaindrop | BYUI WDD230| Jared Vance</div>
-      <span id="lastupdated"></span>
+      <div>
+        <h3>Contact Us</h3>
+        <div class="footGrid">
+        <div class="map">
+          <img id="map" src="../images/preston map.png" alt="map of Preston Idaho" />
+        </div>
+        <div class="contactInfo">
+          <a href="https://www.google.com/maps/@42.0914947,-111.8713697,14.25z">123 North South, Preston, ID 83263</a>
+          <div>(123)456-9999</div>
+          <div>oversizedRain@drops.com</div>
+          <div>
+            <a href="#"><img src="../images/facebook.png" alt="facebook icon" /></a>
+            <a href="#"><img src="../images/instagram.png" alt="instagram icon" /></a>
+            <a href="#"><img src="../images/twitter.png" alt="twitter icon" /></a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div>
+        <p>
+        <div>@OversizedRaindrop | BYUI WDD230| Jared Vance</div>
+        <span id="lastupdated"></span>
+        </p>
+      </div>
+  
     </footer>
     <script src="./lesson4.js"></script>
   </body>

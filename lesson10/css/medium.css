@@ -1,0 +1,66 @@
+@media (min-width: 752px) {
+  .mainMenu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .mainMenu a {
+    flex: 1 1 auto;
+  }
+
+  .openMenu {
+    display: none;
+  }
+
+  .forecastTable {
+    display: initial;
+  }
+
+  #prestonIdaho {
+    width: 87%;
+  }
+
+  .contentBox {
+    flex-direction: row;
+  }
+  .contentBox p {
+    order: 1;
+  }
+
+  .contentTest {
+    order: 2;
+  }
+
+  .weatherBox {
+    display: initial;
+    position: absolute;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: 15%;
+    padding: 5px;
+    background-color: rgba(248, 228, 198, 0.8);
+  }
+
+  .weatherBox p {
+    text-align: right;
+  }
+
+  .weather1 {
+    width: 25%;
+    display: inline-block;
+  }
+  .weather2 p {
+    text-align: left !important;
+  }
+
+  #map {
+    width: 250px;
+  }
+
+
+}
