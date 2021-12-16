@@ -1,0 +1,117 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#activeID {
+  background: #4912ca;
+}
+
+#closeButton {
+  cursor: pointer;
+  width: 25px;
+  max-height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  display: flex !important;
+  align-items: center;
+  color: white;
+  font-size: 22px !important;
+  padding: 15px;
+  background: #98bec3;
+  font-family: "Lato", sans-serif;
+}
+
+header img {
+  padding: 5px;
+  min-width: 100px;
+  display: none;
+}
+
+nav {
+  justify-content: center;
+  background-color: #6038bc;
+}
+
+main {
+  max-width: 1200px;
+  min-height: 110%;
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: thin;
+}
+
+footer {
+  width: 100%;
+  background-color: #6038bc;
+  color: white;
+}
+
+.backgroundDim {
+  max-height: 75vh;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: yellow;
+  box-shadow: 0 0 20px black;
+}
+
+.mainMenu {
+  position: inherit;
+  background: #6038bc;
+  display: none;
+  flex-direction: column;
+}
+.mainMenu a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+}
+.mainMenu a:hover {
+  background-color: #5a1cec;
+}
+.openMenu {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #6038bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeMenu {
+  padding-top: 10px;
+  position: absolute;
+  left: calc(100vw - 15px);
+  display: none;
+  transform: translateX(-100%);
+}
+
+.closeMenu button{
+  font-size: 10px;
+  padding: 10px 13px;
+}
+
+#showButton {
+  width: 55px;
+  height: 30px;
+  margin: 10px;
+}
+
+#refLink {
+  color: white;
+}
+#refLink:visited {
+  color: white;
+}

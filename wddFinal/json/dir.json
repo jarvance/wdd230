@@ -1,0 +1,46 @@
+{
+    "business" : [
+        {  
+            "logo" : "https://vulpinemarketing.com/wp-content/uploads/2020/03/VulpineMarketing-GradientFox.png",
+            "name" : "Vulpine Marketing",
+            "businessSite" : "https://vulpinemarketing.com/",
+            "contact" : "208-555-5050"
+        },
+        {  
+            "logo" : "https://storageunitsoftware-assets.s3.amazonaws.com/uploads/site/logo/7239/Screen_Shot_2020-10-13_at_12.33.02_PM.png",
+            "name" : "Sugar Storage",
+            "businessSite" : "https://www.sugarcitystorage.com/",
+            "contact" : "208-555-5051"
+        },
+        {  
+            "logo" : "https://www.silverspringfinancial.cpa/media/smsltoyj/silver_spring_logo-white.png",
+            "name" : "Silver Spring",
+            "businessSite" : "https://www.silverspringfinancial.cpa/",
+            "contact" : "208-555-5052"
+        },
+        {  
+            "logo" : "http://www.qrvtronics.com/images/logo.jpg",
+            "name" : "QVRElectronics",
+            "businessSite" : "http://www.qrvtronics.com/",
+            "contact" : "208-555-5053"
+        },
+        {  
+            "logo" : "https://www.fullbytesolutions.com/media/1050/vector-smart-object.png",
+            "name" : "Full Byte",
+            "businessSite" : "https://www.fullbytesolutions.com/",
+            "contact" : "208-555-5054"
+        },
+        {  
+            "logo" : "https://static.wixstatic.com/media/0f3704_dea9305e23324fd4bb04bc7b55f9535c~mv2.jpg/v1/fill/w_132,h_83,al_c,q_80,usm_0.66_1.00_0.01/0f3704_dea9305e23324fd4bb04bc7b55f9535c~mv2.webp",
+            "name" : "Affordable Concrete",
+            "businessSite" : "https://www.affordconcrete.com/",
+            "contact" : "208-555-5055"
+        },
+        {  
+            "logo" : "https://www.pococktruck.com/media/1174/pococktrucking-logored.png?width=600&height=150",
+            "name" : "Pocock Trucking",
+            "businessSite" : "https://www.pococktruck.com/",
+            "contact" : "208-555-5056"
+        }
+    ]
+}

@@ -1,0 +1,134 @@
+.events {
+  max-width: 500px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background: white;
+}
+#weatherAlert {
+  position: absolute;
+  z-index: 10;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+}
+#goToJoin {
+  background-color: #6038bc;
+  color: white;
+  padding: 15px 32px;
+  margin-left: 50%;
+  margin-top: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transform: translate(-50%);
+}
+#sledRace {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.joinUs {
+  grid-row: 2;
+  grid-column: 1;
+  max-width: 500px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  background: white;
+}
+
+.split1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.d-block {
+  height: 230px;
+  object-fit: contain;
+}
+.carousel-inner {
+  background-color: black;
+}
+
+.weatherInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: calc(100% - 90px);
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: space-between;
+  padding: 15px;
+  background: white;
+}
+
+.threeDays {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+.todayInfo {
+  flex-grow: 1;
+  width: calc(100%);
+  margin: 5px;
+  padding: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: rgb(236, 201, 148);
+  font-size: 20px;
+}
+.dailyInfo {
+  flex-grow: 1;
+  margin: 5px;
+  padding: 15px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: rgb(236, 201, 148);
+}
+
+.dailyInfo .day,
+.dailyInfo .temperature {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .split1 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .joinUs {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .d-block {
+    height: 500px;
+  }
+  .dailyInfo .day,
+  .dailyInfo .temperature {
+    font-size: 25px;
+  }
+  .todayInfo {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .dailyInfo{
+    margin: 15px;
+    padding: 15px;
+  }
+}

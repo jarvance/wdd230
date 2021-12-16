@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Homepage for Sugar City chamber of commerce."
+    />
+    <title>Sugar City Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/onlyJoin.css" />
+    <script defer src="js/js.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/suglogo.png" alt="sugarCity logo" width="8%" />
+      <h1>Sugar City Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+      <div class="openMenu">
+        <button id="showButton" onclick="showMenu();">&equiv;</button>
+      </div>
+      <div class="mainMenu">
+        <a href="index.html">Home</a>
+        <a href="city.html">City</a>
+        <a id="activeID" href="join.html">Join</a>
+        <a href="directory.html">Directory</a>
+        <a href="contact.html">Contact</a>
+        <div class="closeMenu">
+          <button onclick="closeMenus();">&times;</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div>
+        <h2>Membership Form</h2>
+        <form action="#">
+          <div class="userInfo">
+            <div>
+              <label for="fName">First Name:</label> <br />
+              <input
+                name="fulName"
+                id="fulName"
+                type="text"
+                pattern="[A-Za-z].{2,}"
+                required
+              />
+            </div>
+            <div>
+              <label for="lName">Last Name:</label> <br />
+              <input
+                name="lName"
+                id="lName"
+                type="text"
+                pattern="[A-Za-z].{2,}"
+                required
+              />
+            </div>
+            <div>
+              <label for="title"> Title:</label> <br />
+              <input
+                name="title"
+                id="title"
+                type="text"
+                pattern="[A-Za-z].{2,}"
+              />
+            </div>
+            <div>
+              <label for="email">Email:</label> <br />
+              <input type="email" id="email" placeholder="John.Doe@gmail.com" />
+            </div>
+            <div>
+              <label for="phone">Phone Number:</label><br />
+              <input type="tel" name="phone" id="phone" required />
+            </div>
+          </div>
+
+          <div class="businessInfo">
+            <div>
+              <label for="bName"> Name:</label> <br />
+              <input
+                name="bName"
+                id="bName"
+                type="text"
+                pattern="[A-Za-z].{2,}"
+                required
+              />
+            </div>
+            <div>
+              <label for="bAddress"> Address:</label> <br />
+              <input
+                name="bAddress"
+                id="bAddress"
+                type="text"
+                pattern="[A-Za-z].{2,}"
+              />
+            </div>
+            <div>
+              <label for="bWebsite"> Website:</label> <br />
+              <input
+                name="bWebsite"
+                id="bWebsite"
+                type="text"
+                pattern="[A-Za-z].{2,}"
+              />
+            </div>
+            <div>
+              <label for="bDescription">Description:</label><br />
+              <textarea
+                name="bDescription"
+                id="bDescription"
+                cols="37"
+                rows="9"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="membershipLevel">
+            <div>
+              <label>Membership Level:</label>
+            </div>
+            <p id="memberInfo">
+              Membership levels determine the amount of advertising and events
+              you receive free tickets/access to. Each level includes benfits of
+              the prior one. <br />
+              Bronze will allow access to gathered information and statistics
+              <br />
+              Silver gives food vouchers to each event, and your logo on local
+              boards. <br />
+              Gold grants monthly advertising, including: a spot on our home
+              page, and shoutouts in events. <br />
+              Non-profit is equal to silver
+            </p>
+            <div class="radioAllign">
+              <label for="levelNon"
+                ><input
+                  class="radSpace"
+                  type="radio"
+                  name="mLevel"
+                  id="levelNon"
+                  value="Yes"
+                  required
+                />
+                Non-Profit ($100)
+              </label>
+              <br />
+
+              <label for="levelBronze"
+                ><input
+                  class="radSpace"
+                  type="radio"
+                  name="mLevel"
+                  id="levelBronze"
+                  value="Yes"
+                  required
+                />
+                Bronze ($200)
+              </label>
+              <br />
+
+              <label for="levelSilver"
+                ><input
+                  class="radSpace"
+                  type="radio"
+                  name="mLevel"
+                  id="levelSilver"
+                  value="Yes"
+                  required
+                />
+                Silver ($400)
+              </label>
+              <br />
+
+              <label for="levelGold"
+                ><input
+                  class="radSpace"
+                  type="radio"
+                  name="mLevel"
+                  id="levelGold"
+                  value="Yes"
+                  required
+                />
+                Gold ($1000)
+              </label>
+              <br />
+            </div>
+          </div>
+          <div class="submitJoin">
+          <button id="submitJoinButton">Submit Request</button>
+        </div>
+        </form>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="contactInfo">
+      <p>
+        ©Jared Vance, WDD230 | Contact us at fakeEmail@email.com |
+        <a id="refLink" href="ref.html">References</a>
+      </p>
+      <div class="pageVisit">
+        <p>Page last visited: <span id="lastVisit"></span></p>
+      </div>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Homepage for Sugar City chamber of commerce."
+    />
+    <title>Sugar City Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/onlyDir.css" />
+    <script defer src="js/js.js"></script>
+    <script defer src="js/directory.js"></script>
+  </head>
+  <body onload="checkSize">
+    <header>
+      <img src="images/suglogo.png" alt="sugarCity logo" width="8%" />
+      <h1>Sugar City Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+      <div class="openMenu">
+        <button id="showButton" onclick="showMenu();">&equiv;</button>
+      </div>
+      <div class="mainMenu">
+        <a href="index.html">Home</a>
+        <a href="city.html">City</a>
+        <a href="join.html">Join</a>
+        <a id="activeID" href="directory.html">Directory</a>
+        <a href="contact.html">Contact</a>
+        <div class="closeMenu">
+          <button onclick="closeMenus();">&times;</button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="changeViews">
+        <button onclick="makeGrid()" id="grid-view">View as grid</button>
+        <button onclick="makeList()" id="list-view">View as list</button>
+      </div>
+      <div class="gridTable">
+        <div class="table" id="fetchData"></div>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="contactInfo">
+      <p> ©Jared Vance, WDD230 | Contact us at fakeEmail@email.com | <a id=refLink href="ref.html">References</a></p>
+      <div class="pageVisit">
+        <p>Page last visited: <span id="lastVisit"></span></p>
+      </div>
+    </div>
+  </footer>
+</html>

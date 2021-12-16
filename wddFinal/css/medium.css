@@ -1,0 +1,37 @@
+@media (min-width: 800px) {
+  #hideButton {
+    display: none;
+  }
+  #showButton {
+    display: initial;
+  }
+  header {
+    font-size: 35px;
+  }
+  header img {
+    display: initial;
+  }
+
+  footer {
+    position: sticky;
+    padding: 10px;
+    bottom: 0;
+  }
+  .navLinks {
+    max-width: 100%;
+  }
+  .mainMenu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: auto;
+    flex-direction: row;
+    position: relative;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .openMenu {
+    display: none;
+  }
+}

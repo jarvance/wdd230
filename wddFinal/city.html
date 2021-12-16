@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Homepage for Sugar City chamber of commerce."
+    />
+    <title>Sugar City Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="stylesheet" href="css/onlyCity.css" />
+    <script defer src="js/js.js"></script>
+  </head>
+  <body>
+    <header>
+      <img src="images/suglogo.png" alt="sugarCity logo" width="8%" />
+      <h1 id="sugHeading">Sugar City Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+      <div class="openMenu">
+        <button id="showButton" onclick="showMenu();">&equiv;</button>
+      </div>
+      <div class="mainMenu">
+        <a href="index.html">Home</a>
+        <a id="activeID" href="city.html">City</a>
+        <a href="join.html">Join</a>
+        <a href="directory.html">Directory</a>
+        <a href="contact.html">Contact</a>
+        <div class="closeMenu">
+          <button onclick="closeMenus();">&times;</button>
+        </div>
+      </div>
+    </nav>
+
+    <div>
+      <img
+        id="sugcity"
+        src="images/sugar_beet_factory_plaque-2.jpg"
+        alt="Beet factory"
+      />
+    </div>
+
+    <main>
+      <div id="sugInfo">
+        <h2>A look into the past</h2>
+        <p>
+          Sugar City was chartered in 1903 and incorporated under the general
+          laws of Idaho in 1906. The Upper Snake River Valley was being
+          developed into farms and ranches. Its volcanic soil and the cool
+          summer nights of the region’s high elevation were ideal for growing
+          potatoes – and sugar beets. Sugar City was laid out to be near the
+          largest factory of the Utah & Idaho Sugar Company, built in 1904. The
+          Union Pacific Railroad opened the region to national markets, not only
+          for sugar but also for livestock, grains, potatoes, and timber.
+        </p>
+        <span
+          ><img
+            id="beetPhoto"
+            src="images/sugarbeets.jpg"
+            alt="Thousands of sugarbeets."
+            height="500px"
+        /></span>
+        <p>
+          Citizens no longer see the 100-pound bags of U&I sugar. Due to changes
+          in technology and marketing, the sugar factory closed in 1942, having
+          produced 405,000 tons of sweetness. Today, Sugar City is home to
+          farmers, educators, businessmen, and workers in varied other
+          vocations.
+        </p>
+        <h3>Statistics</h3>
+        <p>Population in 2019: 1,452 (97% urban, 3% rural). 
+        <br/>Population change since 2000: +16.9%
+        <br/>Average yearly rainfall: 14 in.
+        <br/>Average yearly snowfall: 42 in.
+        </p>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <div class="contactInfo">
+      <p> ©Jared Vance, WDD230 | Contact us at fakeEmail@email.com | <a id=refLink href="ref.html">References</a></p>
+      <div class="pageVisit">
+        <p>Page last visited: <span id="lastVisit"></span></p>
+      </div>
+    </div>
+  </footer>
+</html>
